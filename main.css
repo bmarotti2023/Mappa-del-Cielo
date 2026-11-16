@@ -1,0 +1,208 @@
+* {box-sizing: border-box;}
+
+article {width:75%;
+		height: 75%;
+		border: 5px outset rgb(25, 38, 59);
+		padding: 2px;
+		margin: 10px;
+		position: absolute;
+		left: 30px;
+		top: 60px;}
+
+aside {width: 15%;
+	  height: 75%;
+	  border: 8px outset rgb(25, 38, 59);
+	  padding: 10px;
+	  margin: 10px;
+	  position: absolute;
+	  right: 30px;
+	  top: 60px;
+	  background-color: rgb(25, 38, 59);
+	  color: rgb(220, 220, 220);
+	  overflow-wrap: break-word; /* Breaks long words to fit */
+	  word-wrap: break-word;}
+
+nav {width: 95%;
+	height: 28%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; /* Breaks long words to fit */
+	word-wrap: break-word;}
+	  
+aside h3, p {font-size:clamp(0.3vh, 1.6vh, 2.0vh);/* clamp(minimum-size, preferred-size, maximum-size) */
+			line-height:1.0;}
+
+nav ul, li {font-size:clamp(0.3vh, 1.6vh, 1.8vh);
+			 line-height:0.7;}
+
+footer {height: 15%;
+	   border: 8px outset rgb(25, 38, 59);
+	   padding: 2px;
+	   margin: 10px;
+	   position: absolute;
+	   left: 30px;
+	   right: 30px;
+	   bottom:3px;
+	   background-image: url(footer_notte.jpg);
+	   background-size: cover;}
+
+a:link {color: rgb(220, 220, 220);
+		background-color: transparent;
+		text-decoration: none;}
+		
+a:visited {color: rgb(220, 220, 220);
+		   background-color: transparent;
+		   text-decoration: none;}
+		
+a:hover {color: rgb(216, 219, 136);
+		 background-color: transparent;
+		 text-decoration: underline;}
+		
+a:active {color: rgb(142,189,243);
+		  background-color: transparent;
+		  text-decoration: underline;}
+		
+ul {list-style-image: url(stella_tasto1.png);}
+
+@media (max-width: 1580px)
+{
+nav {width: 95%;
+	height: 26%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; 
+	word-wrap: break-word;}
+	  
+aside h3, p {font-size:clamp(0.3vh, 1.5vh, 1.7vh);
+			line-height:1.0;}
+
+nav ul, li {font-size:clamp(0.3vh, 1.4vh, 1.5vh);
+			 line-height:0.7;}	
+
+footer {height: 14%;}
+}
+
+@media (max-width: 1465px)
+{
+nav {width: 95%;
+	height: 28%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; 
+	word-wrap: break-word;}
+	  
+aside h3, p {font-size:clamp(0.3vh, 1.4vh, 1.7vh);
+			line-height:1.0;}
+
+nav ul, li {font-size:clamp(0.3vh, 1.3vh, 1.5vh);
+			 line-height:0.8;}	
+			 
+footer {height: 14%;}
+}
+
+@media (max-width: 1390px)
+{
+nav {width: 95%;
+	height: 28%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; 
+	word-wrap: break-word;}
+	  
+aside h3, p {font-size:clamp(0.3vh, 1.2vh, 1.7vh);
+			line-height:1.0;}
+
+nav ul, li {font-size:clamp(0.3vh, 1.1vh, 1.5vh);
+			 line-height:0.8;}	
+
+footer {height: 18%;}
+article, aside {height:70%;}
+}
+
+@media (max-width: 1313px)
+{
+nav {width: 95%;
+	height: 30%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; 
+	word-wrap: break-word;}
+	  
+aside h3, p {font-size:clamp(0.3vh, 1.1vh, 1.7vh);
+			line-height:1.0;}
+
+nav ul, li {font-size:clamp(0.3vh, 1.0vh, 1.5vh);
+			 line-height:0.8;}	
+
+footer {height: 18%;}
+article, aside {height:70%;}
+}
+
+@media (max-width: 1200px)
+{
+article {width:95%;
+		height: 70%;
+		border: 5px outset rgb(25, 38, 59);
+		padding: 2px;
+		margin: 10px;
+		position: absolute;
+		left: 30px;
+		top: 200px;}
+
+aside {width: 95%;
+	  height: 55%;
+	  border: 8px outset rgb(25, 38, 59);
+	  padding: 10px;
+	  margin: 10px;
+	  position: absolute;
+	  left: 30px;
+	  top: 850px;
+	  background-color: rgb(25, 38, 59);
+	  color: rgb(220, 220, 220);
+	  overflow-wrap: break-word;
+	  word-wrap: break-word;
+	  }
+	  
+nav {width: 40%;
+	height: 65%;
+	padding: 10px;
+	margin: 10px;
+	top: 3px;
+	float:left;
+	color: rgb(220, 220, 220);
+	overflow-wrap: break-word; 
+	word-wrap: break-word;}
+	  
+footer {height: 15%;
+	   width: 95%;
+	   border: 8px outset rgb(25, 38, 59);
+	   padding: 2px;
+	   margin: 10px;
+	   position: absolute;
+	   left: 30px;
+	   right: 30px;
+	   top:30px;
+	   background-image: url(footer_notte.jpg);
+	   background-size: cover;}
+	  
+aside h3, p {font-size:clamp(0.5vh, 1.8vh, 2.0vh);/* clamp(minimum-size, preferred-size, maximum-size) */
+			line-height:1.0;}
+
+aside ul, li {font-size:clamp(0.3vh, 1.6vh, 1.8vh);
+			 line-height:0.9;}
+}
