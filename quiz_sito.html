@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz Astronomico</title>
+	<style type="text/css">
+		fieldset{display: inline-block;}
+		body {background-color: rgb(18,30,47);
+			 color: rgb(220, 220, 220);}
+	</style>
+</head>
+<body>
+	<h1>Quiz Astronomico:</h1>
+	<form>
+	<p>Quale corpo celeste è conosciuto come "stella del mattino"?</p>
+	<fieldset>
+		<legend><i>Inserire la risposta corretta:</i></legend>
+			<input type="radio" name="quiz01">Sole<br>
+			<input type="radio" name="quiz01">Venere<br>
+			<input type="radio" name="quiz01">Giove<br>
+			<input type="radio" name="quiz01">Mercurio<br>
+	</fieldset>
+	<br><br>
+	<p>Quale pianeta del Sistema Solare ha asse di rotazione quasi parallelo al piano della sua orbita attorno al Sole?</p>
+	<fieldset>
+		<legend><i>Inserire la risposta corretta:</i></legend>
+			<input type="radio" name="quiz02">Saturno<br>
+			<input type="radio" name="quiz02">Marte<br>
+			<input type="radio" name="quiz02">Mercurio<br>
+			<input type="radio" name="quiz02">Urano<br>
+	</fieldset>
+	<br><br>
+	<p>Titano è il satellite di quale pianeta del Sistema Solare?</p>
+	<fieldset>
+		<legend><i>Inserire la risposta corretta:</i></legend>
+			<input type="radio" name="quiz03">Saturno<br>
+			<input type="radio" name="quiz03">Giove<br>
+			<input type="radio" name="quiz03">Marte<br>
+			<input type="radio" name="quiz03">Nettuno<br>
+	</fieldset>
+	</form>
+	<br><br>
+	<button type="button" onclick="document.getElementById('demo').innerHTML = '<h2>1) Venere 2) Urano 3) Saturno</h2>'">CONTROLLA</button>
+	<p id="demo"><i>Le risposte corrette sono...</i></p>
+
+</body>
+</html>
